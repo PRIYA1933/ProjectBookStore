@@ -1,0 +1,54 @@
+*{
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  font-family:"poppins";
+}
+.navbar{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  height: 80px;
+  background: #4B2E2E;
+}
+.navbar h2{
+  color: #D4AF37;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 0px 20px;
+}
+.navmenu{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 1000;
+}
+.navmenu li{
+  display: inline-block;
+}
+.navmenu li a{
+  color: #D4AF37;
+  margin-right: 20px;
+  padding: 0px 10px;
+  font-size: 18px;
+  font-weight: 500;
+
+}
+.search-box .search{
+  padding: 12px 8px;
+  border-radius: 50px;
+  font-size: 16px;
+}
+.navmenu .search-box i
+{
+  color:#D4AF37 ;
+  position: relative;
+  right: 50px;
+  top:2px;
+  background-color:#000000;
+  padding: 12px;
+  border-radius: 50px;
+}
